@@ -30,3 +30,6 @@ Thumbs.db
 
 # Optional: TypeScript build files
 *.tsbuildinfo
+
+# Node modules
+node_modules/
