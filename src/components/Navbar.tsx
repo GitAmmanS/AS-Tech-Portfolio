@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
               ))}
             </ul>
             {/* Dark Mode Toggle */}
-            <motion.button
+            {/* <motion.button
               onClick={toggleTheme}
               className="p-2 rounded-lg bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-100 hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors"
               whileHover={{ scale: 1.1 }}
@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
               aria-label="Toggle dark mode"
             >
               {theme === "light" ? <FaMoon /> : <FaSun />}
-            </motion.button>
+            </motion.button> */}
             {/* Mobile Menu Button */}
             <button
               className="md:hidden text-2xl text-slate-800 dark:text-white"
